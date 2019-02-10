@@ -28,6 +28,7 @@
 
 # Ignore database export file
 db/25_12_18_backup.sql
+
 /public/packs
 /public/packs-test
 /node_modules
