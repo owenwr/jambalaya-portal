@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+If it doesn't work, see here
 
-Things you may want to cover:
+https://github.com/reactjs/react-rails
 
-* Ruby version
+$ bundle install
 
-* System dependencies
+$ rails webpacker:install       # OR (on rails version < 5.0) rake webpacker:install
 
-* Configuration
+$ rails webpacker:install:react # OR (on rails version < 5.0) rake webpacker:install:react
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+$ rails generate react:install
